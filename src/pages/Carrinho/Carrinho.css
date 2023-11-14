@@ -1,0 +1,102 @@
+/* Estilo para o contêiner principal */
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Estilo para os campos do formulário */
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form-label {
+  font-weight: bold;
+  font-size: 14px; /* Mantenha este tamanho ou ajuste conforme necessário */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px; /* Ajuste o tamanho conforme necessário */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilo específico para os campos do cliente */
+.form-container-cliente .form-group {
+  width: calc(50% - 10px);
+}
+
+/* Estilo específico para os campos do cartão */
+.form-container-cartao .form-group {
+  width: 100%;
+}
+
+/* Estilo para o seletor de quantidade e o total */
+.col-md-4 {
+  margin-top: 20px;
+}
+
+/* Estilo para os botões */
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-primary,
+.btn-success {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-success:hover {
+  opacity: 0.8;
+}
+
+/* Mensagem de cadastro */
+.mensagem-cadastro {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Estilo para o formulário */
+.form-wrapper {
+  margin: 20px auto; /* Centralizar o formulário na página */
+  max-width: 23cm; /* Largura máxima para uma folha A4 */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex; /* Tornar a div um contêiner flexível */
+  justify-content: space-between; 
+}
+/* Ajuste para diminuir o tamanho da fonte das labels */
+.form-label {
+  font-size: 12px; /* Ajuste o tamanho conforme necessário */
+}
+
+
+
