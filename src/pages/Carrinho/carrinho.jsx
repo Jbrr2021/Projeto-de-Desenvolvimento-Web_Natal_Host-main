@@ -173,6 +173,9 @@ function Carrinho() {
             onSubmit={handleClienteSubmit}
             className="form-container form-container-cliente"
           >
+            <div className="mensagem-cadastro">
+              <strong>Formulário de Cadastro de Cliente</strong>
+            </div>
             <label htmlFor="nomeCompleto" className="form-label">
               Nome Completo
             </label>
@@ -304,6 +307,9 @@ function Carrinho() {
             onSubmit={handleSubmit}
             className="form-container form-container-cartao"
           >
+            <div className="mensagem-cadastro">
+              <strong>Formulário do Cartão</strong>
+            </div>
             <div className="form-group">
               <label htmlFor="numeroCartao" className="form-label">
                 Número do Cartão
